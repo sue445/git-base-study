@@ -5,3 +5,6 @@
 	logallrefupdates = true
 	ignorecase = true
 	precomposeunicode = false
+[remote "origin"]
+	url = git@github.com:sue445/git-base-study-git.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
