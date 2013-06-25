@@ -61,7 +61,7 @@ https://twitter.com/sue445/status/347729384846811137
 $ git init
 ```
 
-93106240e0f62f3dfb41cf21ddebda4a7b14d632
+https://github.com/sue445/git-base-study/commit/93106240e0f62f3dfb41cf21ddebda4a7b14d632
 
 ### ディレクトリ構成
 ```sh
@@ -124,7 +124,7 @@ $ git st
 A  readme.txt
 ```
 
-4b4655b26eb81f495f5d6dd6a11ce667e74ae9aa
+https://github.com/sue445/git-base-study/commit/4b4655b26eb81f495f5d6dd6a11ce667e74ae9aa
 
 ## .git/index
 ```sh
@@ -148,7 +148,7 @@ $ git commit -am "initial commit"
  create mode 100644 readme.txt
 ```
 
-c7a8579ce61f82ee2d48a03d21cb6961f1509391
+https://github.com/sue445/git-base-study/commit/c7a8579ce61f82ee2d48a03d21cb6961f1509391
 
 ## .git/COMMIT_EDITMSG
 直前のコミットメッセージ
@@ -193,14 +193,14 @@ $ echo "1st line" >> readme.txt
 $ git commit -am "add test" # typo
 $ git commit --amend # add text に修正
 ```
-10b4c817d48db423caa7534ba0bf60abe2f8f829
+https://github.com/sue445/git-base-study/commit/10b4c817d48db423caa7534ba0bf60abe2f8f829
 
 ---------------------------------------------------------------------------------------------
 # git branch
 ```sh
 $ git branch new_branch
 ```
-e4fc5df5e5d4fa68e8499d89634e52af1b037f77
+https://github.com/sue445/git-base-study/commit/e4fc5df5e5d4fa68e8499d89634e52af1b037f77
 
 ---------------------------------------------------------------------------------------------
 # git checkout
@@ -208,21 +208,21 @@ e4fc5df5e5d4fa68e8499d89634e52af1b037f77
 $ git checkout new_branch
 Switched to branch 'new_branch'
 ```
-05c17d5101878e41d44f96b01cb30371c38e0596
+https://github.com/sue445/git-base-study/commit/05c17d5101878e41d44f96b01cb30371c38e0596
 
 ---------------------------------------------------------------------------------------------
 # git tag
 ```sh
 $ git tag -a new_tag -m "tag description"
 ```
-ff28ce2cabbca95d73b9156b684702e104c8526b
+https://github.com/sue445/git-base-study/commit/ff28ce2cabbca95d73b9156b684702e104c8526b
 
 ---------------------------------------------------------------------------------------------
 # git gc
 ```sh
 $ git gc
 ```
-96ffd61f59ada2f873714f77685eb3eb5f18a4e4
+https://github.com/sue445/git-base-study/commit/96ffd61f59ada2f873714f77685eb3eb5f18a4e4
 
 ---------------------------------------------------------------------------------------------
 # git reset
@@ -244,7 +244,7 @@ $ git status
 #
 ```
 
-767dc62d135e37ca6638765478c2664a8d974805
+https://github.com/sue445/git-base-study/commit/767dc62d135e37ca6638765478c2664a8d974805
 
 ## git reset --mixed
 > HEAD の位置とインデックスを変更する。ワーキングツリーには影響なし。
@@ -263,7 +263,7 @@ $ git status
 #
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-2c56c560e995fd1120db3b653777fafe06fd0e69
+https://github.com/sue445/git-base-study/commit/2c56c560e995fd1120db3b653777fafe06fd0e69
 
 ## git reset --hard
 > HEADの位置、インデックス、ワーキングツリーをすべて変更する。
@@ -272,26 +272,26 @@ no changes added to commit (use "git add" and/or "git commit -a")
 $ git reset --hard HEAD^
 HEAD is now at 46657b9 initial commit
 ```
-3d6b841dd48c17c5f524e02634e5a388fd9d3514
+https://github.com/sue445/git-base-study/commit/3d6b841dd48c17c5f524e02634e5a388fd9d3514
 
 ------------------------------
 # git remote
 ```sh
 git remote add origin git@github.com:sue445/git-base-study-git.git
 ```
-fb18e7259950b4fe4dd5d36f07ed0858b9c21c25
+https://github.com/sue445/git-base-study/commit/fb18e7259950b4fe4dd5d36f07ed0858b9c21c25
 
 ------------------------------
 # git push
 ```sh
 git push origin master
 ```
-f5ef784bf1cc41806afbeb7399773c0b28cee059
+https://github.com/sue445/git-base-study/commit/f5ef784bf1cc41806afbeb7399773c0b28cee059
 
 ```sh
 git push origin new_branch
 ```
-3d9d85c7d2f1ef604d23c3118180fa5d4f4a65cc
+https://github.com/sue445/git-base-study/commit/3d9d85c7d2f1ef604d23c3118180fa5d4f4a65cc
 
 `git push --tags` (tagのpush)ではリポジトリは変化しない
 
